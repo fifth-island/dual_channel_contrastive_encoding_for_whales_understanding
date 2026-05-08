@@ -1,0 +1,25 @@
+# macOS / editor noise
+.DS_Store
+.vscode/
+.idea/
+
+# Python caches / environments
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+wham_env/
+
+# Raw and generated audio artifacts are too large for normal Git.
+datasets/dswp_audio/
+datasets/synthetic_audio/
+
+# Oversized derived arrays / model checkpoints.
+datasets/wham_embeddings_all_layers.npy
+wham/vampnet/models/*.pth
+*.pt
+
+# Local logs and temporary outputs
+*.log
+*.tmp
